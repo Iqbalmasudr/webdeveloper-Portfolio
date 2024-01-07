@@ -161,14 +161,41 @@ main section {
     color: #757575;
 }
 
-.section-title {}
-
-.resume-container {}
-
-.resume-column {}
-
 .resume-column-title {
     color: #474747);
     font-size: 30px;
     font-weight: 700;
+}
+.section-title {}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-column {}
+
+.resume-item-description{
+    color: #757575;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-taitle{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+
+}
+.resume-container hr{
+  margin: 30px;
+}
+
+.downlode-cv{
+   text-align: center; 
+   margin-top: 50px;
 }
